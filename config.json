@@ -2,7 +2,27 @@
   "useTemplate": false,
   "name": "popmg-hasher",
   "developer": {
-    "deployments": []
+    "deployments": [
+      {
+        "project": "whitelist-minter",
+        "type": "instantiate",
+        "chainId": "constantine-3",
+        "codeId": 2220,
+        "txhash": "369329FF7C6A276DBB592D444680428B173417FA0355050A615C4B0F7C66937D",
+        "address": "archway13vvsc8706ph6pux8rsg0pfr4mkrhsa6zgvztxdzes0wxl9uhwxeqtxjklw",
+        "admin": "archway1f395p0gg67mmfd5zcqvpnp9cxnu0hg6r9hfczq",
+        "label": "experimental hasher",
+        "args": {}
+      },
+      {
+        "project": "popmg-hasher",
+        "type": "store",
+        "chainId": "constantine-3",
+        "codeId": 2220,
+        "checksum": "9ad7e53b0b02c233314e19c1f4e02fb59f6680d411ee17bf59911bf62ec9c65b",
+        "txhash": "E8AFD0561E8183978EADC9B62053A3077369D04BFC52FB7CEA2CFFE80DBB4204"
+      }
+    ]
   },
   "network": {
     "name": "constantine",

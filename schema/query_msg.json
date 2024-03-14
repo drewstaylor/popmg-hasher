@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "QueryMsg",
+  "oneOf": [
+    {
+      "description": "Generate a hash from a proof hash",
+      "type": "object",
+      "required": [
+        "hash"
+      ],
+      "properties": {
+        "hash": {
+          "type": "object",
+          "required": [
+            "depth",
+            "proof"
+          ],
+          "properties": {
+            "depth": {
+              "type": "integer",
+              "format": "uint32",
+              "minimum": 0.0
+            },
+            "proof": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  ]
+}

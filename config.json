@@ -4,7 +4,26 @@
   "developer": {
     "deployments": [
       {
-        "project": "whitelist-minter",
+        "project": "popmg-hasher",
+        "type": "instantiate",
+        "chainId": "archway-1",
+        "codeId": 362,
+        "txhash": "AAA59CFC179E199A4F7684EA166EFBC3A285A4872EA0DAC9253463F0B42A4736",
+        "address": "archway1l68ysfj57f220x24yyljryw288cntgreccq8f7v8r3k568vlf73svsk8hh",
+        "admin": "archway1f395p0gg67mmfd5zcqvpnp9cxnu0hg6r9hfczq",
+        "label": "0.1.0",
+        "args": {}
+      },
+      {
+        "project": "popmg-hasher",
+        "type": "store",
+        "chainId": "archway-1",
+        "codeId": 362,
+        "checksum": "9ad7e53b0b02c233314e19c1f4e02fb59f6680d411ee17bf59911bf62ec9c65b",
+        "txhash": "4A039A4ACD08FA99453FAB05318AB62802F2E482B009203C1D1E6C6797C6166C"
+      },
+      {
+        "project": "popmg-hasher",
         "type": "instantiate",
         "chainId": "constantine-3",
         "codeId": 2220,
